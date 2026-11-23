@@ -1,84 +1,79 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Portal Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <div class="dashboard">
 
-    <aside class="sidebar">
+    <!-- Sidebar -->
+    <div class="sidebar">
 
         <div class="logo">
-            <img src="Assets/17.png" alt="Student Portal">
+            <img src="Assets/17.png">
             <h3>Student<br>Portal</h3>
         </div>
 
-        <nav class="sidebar-menu">
-            <a href="#" class="menu-item active">
-                <img src="Assets/13.png" alt="">
+        <div class="menu">
+            <div class="menu-item active">
+                <img src="Assets/13.png">
                 <span>Dashboard</span>
-            </a>
+            </div>
 
-            <a href="#" class="menu-item">
-                <img src="Assets/12.png" alt="">
+            <div class="menu-item">
+                <img src="Assets/12.png">
                 <span>Assignments</span>
-            </a>
+            </div>
 
-            <a href="#" class="menu-item">
-                <img src="Assets/11.png" alt="">
+            <div class="menu-item">
+                <img src="Assets/11.png">
                 <span>Courses</span>
-            </a>
+            </div>
 
-            <a href="#" class="menu-item">
-                <img src="Assets/10.png" alt="">
+            <div class="menu-item">
+                <img src="Assets/10.png">
                 <span>Progress</span>
-            </a>
+            </div>
 
-            <a href="#" class="menu-item">
-                <img src="Assets/15.png" alt="">
+            <div class="menu-item">
+                <img src="Assets/15.png">
                 <span>Profile</span>
-            </a>
-        </nav>
+            </div>
+        </div>
 
         <div class="logout">
-            <img src="Assets/08.png" alt="">
+            <img src="Assets/08.png">
             <span>Logout</span>
         </div>
 
-    </aside>
+    </div>
 
 
-    
-    <main class="main-content">
+    <!-- Main Content -->
+    <div class="main-content">
 
-        <header class="topbar">
+        <!-- Topbar -->
+        <div class="topbar">
             <h2>Dashboard</h2>
 
-            <div class="user-area">
-                <div class="notification">
-                    <img src="Assets/16.png" alt="Notifications">
-                </div>
-
-                <div class="profile">
-                    <img src="Assets/09.png" alt="Profile">
-                    <span>Umra</span>
-                    <span class="arrow">⌄</span>
-                </div>
+            <div class="profile">
+                <img src="Assets/16.png">
+                <img src="Assets/09.png">
+                <span>Umra</span>
             </div>
-        </header>
+        </div>
 
 
-        
         <div class="content">
 
-            <section class="welcome-banner">
+            <!-- Welcome Section -->
+            <div class="welcome-banner">
 
-                <div class="welcome-text">
+                <div>
                     <h2>Welcome Back, Umra! 👋</h2>
                     <p>
                         Continue your learning journey and complete your
@@ -86,91 +81,103 @@
                     </p>
                 </div>
 
-                <img src="Assets/18.png" alt="Student studying">
+                <img src="Assets/18.png">
 
-            </section>
+            </div>
 
-            <section class="stats">
 
-                <div class="stat-card courses-stat">
-                    <img src="Assets/04.png" alt="">
+            <!-- Statistics -->
+            <div class="stats">
+
+                <div class="stat-card purple">
+                    <img src="Assets/04.png">
                     <div>
                         <h2>3</h2>
                         <p>Courses</p>
                     </div>
                 </div>
 
-                <div class="stat-card assignments-stat">
-                    <img src="Assets/03.png" alt="">
+                <div class="stat-card green">
+                    <img src="Assets/03.png">
                     <div>
                         <h2>12</h2>
                         <p>Assignments</p>
                     </div>
                 </div>
 
-                <div class="stat-card progress-stat">
-                    <img src="Assets/02.png" alt="">
+                <div class="stat-card yellow">
+                    <img src="Assets/02.png">
                     <div>
                         <h2>78%</h2>
                         <p>Progress</p>
                     </div>
                 </div>
 
-                <div class="stat-card due-stat">
-                    <img src="Assets/01.png" alt="">
+                <div class="stat-card pink">
+                    <img src="Assets/01.png">
                     <div>
                         <h2>5</h2>
                         <p>Due This Week</p>
                     </div>
                 </div>
 
-            </section>
+            </div>
 
 
-            <section class="bottom-section">
+            <!-- Courses and Assignments -->
+            <div class="bottom-section">
 
-                <div class="panel courses-panel">
+                <!-- Courses -->
+                <div class="panel">
 
                     <h3>Your Courses</h3>
 
                     <div class="course">
-                        <img src="Assets/07.png" alt="">
+                        <img src="Assets/07.png">
+
                         <div class="course-info">
                             <h4>Web Development</h4>
                             <p>HTML, CSS, JavaScript</p>
                         </div>
+
                         <div class="course-progress">
                             <span>80%</span>
                             <div class="progress-bar">
-                                <div class="progress-fill width-80"></div>
+                                <div class="progress-80"></div>
                             </div>
                         </div>
                     </div>
 
+
                     <div class="course">
-                        <img src="Assets/06.png" alt="">
+                        <img src="Assets/06.png">
+
                         <div class="course-info">
                             <h4>Python Programming</h4>
                             <p>Basics to Advanced</p>
                         </div>
+
                         <div class="course-progress">
                             <span>70%</span>
                             <div class="progress-bar">
-                                <div class="progress-fill width-70"></div>
+                                <div class="progress-70"></div>
                             </div>
                         </div>
                     </div>
 
+
                     <div class="course">
-                        <img src="Assets/05.png" alt="">
+                        <img src="Assets/05.png">
+
                         <div class="course-info">
                             <h4>Database Systems</h4>
                             <p>SQL, Normalization, Queries</p>
                         </div>
+
                         <div class="course-progress">
                             <span>85%</span>
                             <div class="progress-bar">
-                                <div class="progress-fill width-85"></div>
+                                <div class="progress-85"></div>
                             </div>
                         </div>
                     </div>
@@ -178,14 +185,14 @@
                 </div>
 
 
-                
-                <div class="panel assignments-panel">
+                <!-- Assignments -->
+                <div class="panel">
 
                     <h3>Upcoming Assignments</h3>
 
                     <div class="assignment">
-                        <img src="Assets/14.png" alt="">
-                        <div class="assignment-info">
+                        <img src="Assets/14.png">
+                        <div>
                             <h4>Create a Responsive Landing Page</h4>
                             <p>Due: 20 Nov 2026</p>
                         </div>
@@ -193,8 +200,8 @@
                     </div>
 
                     <div class="assignment">
-                        <img src="Assets/14.png" alt="">
-                        <div class="assignment-info">
+                        <img src="Assets/14.png">
+                        <div>
                             <h4>Array Problem Set</h4>
                             <p>Due: 22 Nov 2026</p>
                         </div>
@@ -202,8 +209,8 @@
                     </div>
 
                     <div class="assignment">
-                        <img src="Assets/14.png" alt="">
-                        <div class="assignment-info">
+                        <img src="Assets/14.png">
+                        <div>
                             <h4>DBMS SQL Queries</h4>
                             <p>Due: 25 Nov 2026</p>
                         </div>
@@ -212,11 +219,11 @@
 
                 </div>
 
-            </section>
+            </div>
 
         </div>
 
-    </main>
+    </div>
 
 </div>
 
